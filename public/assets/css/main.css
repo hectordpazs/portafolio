@@ -1,0 +1,95 @@
+@font-face {
+    src: url(..fonts/roboto/Roboto-Bold.woff);
+}
+body, body *{
+font-family:"Roboto-Bold";
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*header*/
+header h1 {
+  font-weight: 600;
+}
+.background{
+  background-image: url(../img/bggg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: auto;
+  height: 400px;
+}
+.backgroundm{
+  background-image: url(../img/bggg.jpg);
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: auto;
+  height: 400px;
+}
+.perfil{
+  padding: 5px;
+}
+#mo{
+  padding:25% 0;
+}
+
+/*about me*/
+#about{
+  padding: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #about{
+    padding: 100px 20px;
+  }
+}
+/*portafolio*/
+
+.proyecto{
+  width: 250px;
+  height: 150px;
+}
+
+.proyecto img{
+  margin-top: 15px;
+  width: 220px;
+  height: 150px;
+}
+
+
+#porta{
+  padding: 50px;
+}
+@media only screen and (max-width: 600px) {
+  #porta{
+    padding: 100px 10px;
+  }
+}
+/*contac*/
+#contac{
+  padding: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #contac{
+    padding: 100px 20px;
+  }
+  #contacdet{
+    padding: 50px 20px;
+  }
+}
+/*footer*/
+footer{
+  padding: 15px;
+}
